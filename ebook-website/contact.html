@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet" />
+  <link rel="stylesheet"
+        href="css/font-awesome.css" />
+  <link rel="stylesheet"
+        href="css/bootstrap.css" />
+  <link rel="stylesheet"
+        href="css/styles.css" />
+  <link rel="icon"
+        href="images/favicon.png" />
+  <title>Free E-Book | Start Your Own Blog</title>
+</head>
+
+<body>
+  <!-- navigation -->
+  <!-- expand-lg to make it expand on large screen size -->
+  <!-- navbar dark to make the text light -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a href="index.html"
+         class="navbar-brand">
+        <img src="images/logo.png"
+             alt="logo image"
+             width="225">
+      </a>
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"
+           id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html"
+               class="nav-link fw-semibold">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#details"
+               class="nav-link fw-semibold">Details</a>
+          </li>
+          <li class="nav-item">
+            <a href="#details"
+               class="nav-link fw-semibold btn btn-outline-light px-4 mx-4">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header class="header">
+    <!-- hero -->
+    <div class="hero text-white pt-7 pb-4 ps-3">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <h1>Contact Information</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg id="wave"
+         style="transform:rotate(0deg); transition: 0.3s"
+         viewBox="0 0 1440 170"
+         version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sw-gradient-0"
+                        x1="0"
+                        x2="0"
+                        y1="1"
+                        y2="0">
+          <stop stop-color="rgba(243, 246, 249, 1)"
+                offset="0%"></stop>
+          <stop stop-color="rgba(243, 246, 249, 1)"
+                offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path style="transform:translate(0, 0px); opacity:1"
+            fill="url(#sw-gradient-0)"
+            d="M0,51L26.7,56.7C53.3,62,107,74,160,68C213.3,62,267,40,320,31.2C373.3,23,427,28,480,36.8C533.3,45,587,57,640,73.7C693.3,91,747,113,800,121.8C853.3,130,907,125,960,116.2C1013.3,108,1067,96,1120,99.2C1173.3,102,1227,119,1280,116.2C1333.3,113,1387,91,1440,82.2C1493.3,74,1547,79,1600,76.5C1653.3,74,1707,62,1760,56.7C1813.3,51,1867,51,1920,68C1973.3,85,2027,119,2080,136C2133.3,153,2187,153,2240,127.5C2293.3,102,2347,51,2400,51C2453.3,51,2507,102,2560,127.5C2613.3,153,2667,153,2720,147.3C2773.3,142,2827,130,2880,116.2C2933.3,102,2987,85,3040,70.8C3093.3,57,3147,45,3200,45.3C3253.3,45,3307,57,3360,73.7C3413.3,91,3467,113,3520,113.3C3573.3,113,3627,91,3680,79.3C3733.3,68,3787,68,3813,68L3840,68L3840,170L3813.3,170C3786.7,170,3733,170,3680,170C3626.7,170,3573,170,3520,170C3466.7,170,3413,170,3360,170C3306.7,170,3253,170,3200,170C3146.7,170,3093,170,3040,170C2986.7,170,2933,170,2880,170C2826.7,170,2773,170,2720,170C2666.7,170,2613,170,2560,170C2506.7,170,2453,170,2400,170C2346.7,170,2293,170,2240,170C2186.7,170,2133,170,2080,170C2026.7,170,1973,170,1920,170C1866.7,170,1813,170,1760,170C1706.7,170,1653,170,1600,170C1546.7,170,1493,170,1440,170C1386.7,170,1333,170,1280,170C1226.7,170,1173,170,1120,170C1066.7,170,1013,170,960,170C906.7,170,853,170,800,170C746.7,170,693,170,640,170C586.7,170,533,170,480,170C426.7,170,373,170,320,170C266.7,170,213,170,160,170C106.7,170,53,170,27,170L0,170Z">
+      </path>
+    </svg>
+  </header>
+
+  <!-- contact form -->
+  <section class="contact bg-light pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="mb-3">
+              <input type="text"
+                     class="form-control form-control-lg fs-8"
+                     name="name"
+                     placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <input type="email"
+                     class="form-control form-control-lg fs-8"
+                     name="email"
+                     placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <textarea name="message"
+                        class="form-control form-control-lg fs-8"
+                        rows="6"
+                        placeholder="Message"></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit"
+                      class="btn btn-primary text-white mt-3">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- map -->
+  <section class="location my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1">
+          <h3>Our Location</h3>
+          <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam incidunt, doloremque, rerum
+            quis voluptatem cupiditate unde mollitia debitis odit in officiis illo tempora nesciunt est exercitationem,
+            nostrum quidem placeat natus.</p>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.992178772005!2d101.6763678!3d3.0967379000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4bc293e75eb9%3A0xe07261dc89ff182c!2sDressaville!5e0!3m2!1sen!2smy!4v1726552574425!5m2!1sen!2smy"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- social -->
+  <section class="social text-bg-dark py-6 overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center fs-4">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente dignissimos iste nihil similique!</p>
+          <div class="social-icons d-flex justify-content-center gap-4">
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-pinterest fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="border-top border-primary bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="index.html"
+                 class="nav-link link-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details"
+                 class="nav-link link-light">Details</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html"
+                 class="nav-link link-light">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="text-end d-none d-md-block">
+            Copyright &copy; Blog Mastery 2024
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet" />
+  <link rel="stylesheet"
+        href="css/font-awesome.css" />
+  <link rel="stylesheet"
+        href="css/bootstrap.css" />
+  <link rel="stylesheet"
+        href="css/styles.css" />
+  <link rel="icon"
+        href="images/favicon.png" />
+  <title>Free E-Book | Start Your Own Blog</title>
+</head>
+
+<body>
+  <!-- navigation -->
+  <!-- expand-lg to make it expand on large screen size -->
+  <!-- navbar dark to make the text light -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a href="index.html"
+         class="navbar-brand">
+        <img src="images/logo.png"
+             alt="logo image"
+             width="225">
+      </a>
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"
+           id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html"
+               class="nav-link fw-semibold">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#details"
+               class="nav-link fw-semibold">Details</a>
+          </li>
+          <li class="nav-item">
+            <a href="#details"
+               class="nav-link fw-semibold btn btn-outline-light px-4 mx-4">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header class="header">
+    <!-- hero -->
+    <div class="hero text-white pt-7">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-container mb-5 px-4">
+              <img src="images/header-ebook.png"
+                   alt="header image"
+                   class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5">
+              <h1 class="display-3 fw-bold">Welcome to Blog Mastery</h1>
+              <p class="lead">
+                Are you ready to take your blogging journey to new heights? Blog Mastery is your ultimate guide to
+                creating and managing a successful blog that captivates your audience and drives engagement.
+              </p>
+              <!-- form -->
+              <div class="form-container text-center">
+                <form>
+                  <div class="my-4">
+                    <input type="email"
+                           class="form-control form-control-lg rounded-5 fs-6"
+                           placeholder="Email Address">
+                  </div>
+                  <div class="d-grid">
+                    <button class="btn btn-primary text-white btn-lg fs-6">
+                      Free Download
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg id="wave"
+         style="transform:rotate(0deg); transition: 0.3s"
+         viewBox="0 0 1440 170"
+         version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sw-gradient-0"
+                        x1="0"
+                        x2="0"
+                        y1="1"
+                        y2="0">
+          <stop stop-color="rgba(243, 246, 249, 1)"
+                offset="0%"></stop>
+          <stop stop-color="rgba(243, 246, 249, 1)"
+                offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path style="transform:translate(0, 0px); opacity:1"
+            fill="url(#sw-gradient-0)"
+            d="M0,51L26.7,56.7C53.3,62,107,74,160,68C213.3,62,267,40,320,31.2C373.3,23,427,28,480,36.8C533.3,45,587,57,640,73.7C693.3,91,747,113,800,121.8C853.3,130,907,125,960,116.2C1013.3,108,1067,96,1120,99.2C1173.3,102,1227,119,1280,116.2C1333.3,113,1387,91,1440,82.2C1493.3,74,1547,79,1600,76.5C1653.3,74,1707,62,1760,56.7C1813.3,51,1867,51,1920,68C1973.3,85,2027,119,2080,136C2133.3,153,2187,153,2240,127.5C2293.3,102,2347,51,2400,51C2453.3,51,2507,102,2560,127.5C2613.3,153,2667,153,2720,147.3C2773.3,142,2827,130,2880,116.2C2933.3,102,2987,85,3040,70.8C3093.3,57,3147,45,3200,45.3C3253.3,45,3307,57,3360,73.7C3413.3,91,3467,113,3520,113.3C3573.3,113,3627,91,3680,79.3C3733.3,68,3787,68,3813,68L3840,68L3840,170L3813.3,170C3786.7,170,3733,170,3680,170C3626.7,170,3573,170,3520,170C3466.7,170,3413,170,3360,170C3306.7,170,3253,170,3200,170C3146.7,170,3093,170,3040,170C2986.7,170,2933,170,2880,170C2826.7,170,2773,170,2720,170C2666.7,170,2613,170,2560,170C2506.7,170,2453,170,2400,170C2346.7,170,2293,170,2240,170C2186.7,170,2133,170,2080,170C2026.7,170,1973,170,1920,170C1866.7,170,1813,170,1760,170C1706.7,170,1653,170,1600,170C1546.7,170,1493,170,1440,170C1386.7,170,1333,170,1280,170C1226.7,170,1173,170,1120,170C1066.7,170,1013,170,960,170C906.7,170,853,170,800,170C746.7,170,693,170,640,170C586.7,170,533,170,480,170C426.7,170,373,170,320,170C266.7,170,213,170,160,170C106.7,170,53,170,27,170L0,170Z">
+      </path>
+    </svg>
+  </header>
+
+  <!-- icons -->
+  <section class="icons bg-light pb-5">
+    <div class="container-xl">
+      <div class="row hstack g-5">
+        <div class="col-md-4 d-flex gap-4">
+          <i class="fas fa-user fa-3x text-primary"></i>
+          <div>
+            <h5 class="fw-bold">
+              Unlock Your Blogging Potential
+            </h5>
+            <p class="text-muted">
+              Discover the key to unleash your true blogging potential. Our ebook provides expert guidance on creating
+              compelling content.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-md-4 d-flex gap-4">
+          <i class="fas fa-rocket fa-3x text-secondary"></i>
+          <div>
+            <h5 class="fw-bold">
+              Skyrocket Your Blog's Success
+            </h5>
+            <p class="text-muted">
+              Take your blog to new heights with our proves strategies for driving traffic and increasing your blog's
+              visibility.
+            </p>
+          </div>
+
+        </div>
+        <div class="col-md-4 d-flex gap-4">
+          <i class="fas fa-dollar fa-3x text-primary"></i>
+          <div>
+            <h5 class="fw-bold">
+              Monetize Your Blog
+            </h5>
+            <p class="text-muted">
+              Turn your passion for blogging innto a profitable venture. Our ebook reveals tried-and-tested
+              monetization strategies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- details -->
+  <section id="details"
+           class="details my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="text-container d-flex flex-column justify-content-center h-100">
+            <h2 class="display-6">Unlock Your Blogging Potential</h2>
+            <p>
+              Are you ready to unleash your true blogging potential? Our ebook, "Blog Mastery", provides you with the
+              tools and knowledge to take your blog to the next level.
+            </p>
+            <ul class="list-group list-group-flush lh-lg">
+              <li class="list-group-item">
+                <i class="fas fa-square text-primary"></i>
+                <strong>Unleash Your Creativity:</strong> Our ebook empowers you to unleash your creativity and express
+                your unique voice through your blog.
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-square text-primary"></i>
+                <strong>Maximize Your Reach:</strong> Learn how to optimize your blog for search engines.
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-square text-primary"></i>
+                <strong>Monetization Strategies:</strong> Discover various monetization strategies, such as sponsored
+                content & affiliate marketing.
+              </li>
+            </ul>
+            <a class="btn btn-primary text-white mt-4 align-self-start"
+               data-bs-toggle="modal"
+               data-bs-target="#modal1">Get Your Copy Now</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="image-container p-5">
+            <img src="images/description.png"
+                 alt="Image"
+                 class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal 1 -->
+  <div id="modal1"
+       class="modal fade">
+    <div class="modal-dialog modal-lg mt-7">
+      <div class="modal-content p-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img src="images/description.png"
+                   alt="Image"
+                   class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h2 class="display-6">Unlock Your Blogging Potential</h2>
+              <p>
+                Are you ready to unleash your true blogging potential? Our ebook, "Blog Mastery", provides you with the
+                tools and knowledge to take your blog to the next level.
+              </p>
+              <ul class="list-group list-group-flush lh-lg">
+                <li class="list-group-item">
+                  <i class="fas fa-square text-primary"></i>
+                  <strong>Unleash Your Creativity:</strong> Our ebook empowers you to unleash your creativity and
+                  express
+                  your unique voice through your blog.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-square text-primary"></i>
+                  <strong>Maximize Your Reach:</strong> Learn how to optimize your blog for search engines.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-square text-primary"></i>
+                  <strong>Monetization Strategies:</strong> Discover various monetization strategies, such as sponsored
+                  content & affiliate marketing.
+                </li>
+              </ul>
+              <a href=""
+                 class="btn btn-primary text-white">Free Download</a>
+              <button class="btn btn-light"
+                      data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- statement -->
+  <section class="statement mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-container bg-light p-5 rounded-5">
+            <h2>Master the Art of Blogging Excellence</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quos rem incidunt nesciunt dignissimos
+              ipsa autem. Excepturi voluptatibus quia, ut quibusdam dolorum maiores esse fuga molestias corporis
+              accusantium id nobis tempora fugiat adipisci doloribus perspiciatis maxime! Tenetur rem tempora ad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- details 2 -->
+  <section class="details my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="image-container p-5">
+            <img src="images/author.png"
+                 alt="Author"
+                 class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="text-container">
+            <h2 class="display-6">Craft Remarkable Content</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim deserunt provident fugiat
+              distinctio explicabo nostrum debitis at incidunt obcaecati a tempora corrupti eaque aliquam inventore
+              facilis nobis, magni est?
+            </p>
+            <ul class="list-group list-group-flush lh-lg">
+              <li class="list-group-item">
+                <i class="fas fa-square text-primary"></i>
+                <strong>Embrace Your Unique Voice:</strong> Learn how to harness the power of your unique voice.
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-square text-primary"></i>
+                <strong>Spark Creativity:</strong> Explore techniques to spark creativity and overcome writer's block.
+              </li>
+              <li class="list-group-item">
+                <i class="fas fa-square text-primary"></i>
+                <strong>Engage Your Readers:</strong> Discover strategies for creating content that engages your readers
+                on a deeper level.
+              </li>
+            </ul>
+            <a class="btn btn-primary text-white mt-4 align-self-start"
+               data-bs-toggle="modal"
+               data-bs-target="#modal2">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal 2 -->
+  <div id="modal2"
+       class="modal fade">
+    <div class="modal-dialog modal-lg mt-7">
+      <div class="modal-content p-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img src="images/author.png"
+                   alt="Image"
+                   class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container pt-3">
+              <h2 class="display-6">Craft Remarkable Content</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim deserunt provident fugiat
+                distinctio explicabo nostrum debitis at incidunt obcaecati a tempora corrupti eaque aliquam inventore
+                facilis nobis, magni est?
+              </p>
+              <ul class="list-group list-group-flush lh-lg">
+                <li class="list-group-item">
+                  <i class="fas fa-square text-primary"></i>
+                  <strong>Embrace Your Unique Voice:</strong> Learn how to harness the power of your unique voice.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-square text-primary"></i>
+                  <strong>Spark Creativity:</strong> Explore techniques to spark creativity and overcome writer's block.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-square text-primary"></i>
+                  <strong>Engage Your Readers:</strong> Discover strategies for creating content that engages your
+                  readers
+                  on a deeper level.
+                </li>
+              </ul>
+              <a href=""
+                 class="btn btn-primary text-white">Free Download</a>
+              <button class="btn btn-light"
+                      data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- testimonials -->
+  <section class="testimonials mb-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg"
+               alt=""
+               class="rounded-circle mb-3">
+          <p class="lead fst-italic">"This ebook completely transformed my blogging journey. The practical strategies
+            and valuable insights helpmed me take my blog to new heights. I highly recommend it!"</p>
+          <p class="fw-bold">Kenny Smith - Portland, ME</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="https://randomuser.me/api/portraits/women/32.jpg"
+               alt=""
+               class="rounded-circle mb-3">
+          <p class="lead fst-italic">"I'm so grateful for this ebook! It provided me with the guidance and inspiration I
+            needed to create engaging content and build a loyal readership. It's a game changer!"</p>
+          <p class="fw-bold">Laurie Mitchell- Miami, FL</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="https://randomuser.me/api/portraits/men/31.jpg"
+               alt=""
+               class="rounded-circle mb-3">
+          <p class="lead fst-italic">"I can't recommend this ebook enough. It's a treasure of blogging wisdom. It helped
+            me unlock my creativity, connect with my audience, and achieve remarkable results."</p>
+          <p class="fw-bold">Henry White - Boston, MA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- download -->
+  <section class="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="image-container mt-n6 mb-5">
+            <img src="images/download-ebook.png"
+                 alt=""
+                 class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="text-container text-white d-flex flex-column justify-content-center h-100 mb-5">
+            <h2 class="fw-bold">Get Your Free Ebook Now</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, incidunt explicabo? Doloribus
+              laboriosam porro quas dolorum ipsum numquam, mollitia tenetur, at illum nostrum natus magnam hic, totam
+              enim minima explicabo quod ratione quibusdam maxime aperiam sed libero placeat alias. Magnam!</p>
+
+            <!-- form -->
+            <form>
+              <div class="input-group mb-3">
+                <input type="email"
+                       class="form-control"
+                       placeholder="Email Address">
+                <button class="btn btn-primary text-white rounded-end">Download</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- social -->
+  <section class="social text-bg-dark py-6 overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center fs-4">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente dignissimos iste nihil similique!</p>
+          <div class="social-icons d-flex justify-content-center gap-4">
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-pinterest fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="border-top border-primary bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="index.html"
+                 class="nav-link link-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details"
+                 class="nav-link link-light">Details</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html"
+                 class="nav-link link-light">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="text-end d-none d-md-block">
+            Copyright &copy; Blog Mastery 2024
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
